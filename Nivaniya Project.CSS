@@ -1,0 +1,123 @@
+body
+{
+    background-color: black;
+    padding: 100px ;
+}
+.imgcenter
+{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:140px;
+  height: 120px;
+}
+.header
+{
+    color: yellow;
+    text-align: center;
+}
+
+.navtop
+{
+    background-color: yellow;
+    overflow: hidden;
+}
+.navtop a
+{
+    float: right;
+    display: block;
+    color:black;
+    text-align: right;
+    padding: 18px 70px; 
+}
+.navtop a:hover
+{
+    background-color: black;
+    color:yellow;
+}
+.mainsection
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    color: yellow;
+    grid-column-gap: 200px;
+    font-size: 25px;
+    margin: 40px;
+    padding: 20px
+}
+.mainsectionus
+{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    color: yellow;
+    grid-column-gap: 10px;
+    font-size: 25px;
+    margin: 40px;
+    padding: 20px;
+}
+.usimage
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+    height: 300px;
+}
+.ownwork
+{
+    grid-template-columns: 2fr 2fr 1fr;
+    color: yellow;
+    display: Grid;
+}
+.work1 a
+{
+    color:yellow;
+}
+.work2 a{
+    color: Yellow;
+}
+.work3 a
+{
+    color: Yellow;
+}
+.bandupdate
+{   margin-left: 150px ;
+    align-items: center;
+    display: grid;
+    grid-column-gap: 500px;
+    grid-template-columns: 3fr 3fr;
+    color: Yellow;
+    padding: 50px;
+    font-size: 30px;
+}
+.footer
+{
+    color: Yellow;
+    font-size: 25px;
+}
+.logoimage
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:140px;
+    height: 120px;
+}
+@media screen and (max-width: 576px)
+
+{
+
+.imgcenter
+{
+  display: flex;
+  justify-content: center;
+align-items: center;
+margin: 50px auto;
+
+
+}
+
+
+}   
